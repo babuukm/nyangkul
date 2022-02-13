@@ -1,5 +1,5 @@
 #!/bin/bash
-POOL=https://pool.services.tonwhales.com
+POOL=https://server1.whalestonpool.com
 USER=$1
 ALGO=TON
 
