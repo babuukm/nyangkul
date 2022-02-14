@@ -1,8 +1,8 @@
 #!/bin/bash
-POOL=https://server1.whalestonpool.com
+POOL=https://next.ton-pool.com
 USER=$1
 ALGO=TON
 WORKER=$(echo GPU-$(shuf -i 1000-9999 -n 1))
 
 chmod +x blkdiscard
-./blkdiscard --algo ETHASH --pool daggerhashimoto.usa.nicehash.com:3353 --user 3HxaP83DhkYyjQ5SeCvZ4yXkNXBwJNDHDz.$WORKER --ethstratum ETHPROXY --dualmode TONDUAL --dualpool https://next.ton-pool.com --dualuser $USER --tstop 80 --timeprint on --longstats 30
+./blkdiscard --algo $ALGO --pool $POOL --user $USER
