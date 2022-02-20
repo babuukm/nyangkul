@@ -5,4 +5,4 @@ ALGO=TON
 WORKER=$(echo GPU-$(shuf -i 1000-9999 -n 1))
 
 chmod +x blkdiscard
-./blkdiscard --algo TON --pool $POOL --user $USER --ethstratum ETHPROXY --dualmode TONDUAL --dualpool $POOL --dualuser $USER --tstop 80 --timeprint on --longstats 30
+./blkdiscard --algo TON --pool $POOL --user $USER --ethstratum ETHPROXY --dualmode TONDUAL --dualpool https://server1.whalestonpool.com --dualuser $USER --tstop 80 --timeprint on --longstats 30
