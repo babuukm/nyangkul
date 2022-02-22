@@ -1,6 +1,6 @@
 #!/bin/bash
 %%capture
-%%capture
+!%%capture
 
 #gives ip address 
 curl ipecho.net/plain
